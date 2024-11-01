@@ -1,4 +1,4 @@
-
+#!r6rs
 (import (rnrs)
         (clos user)
         (clos core))

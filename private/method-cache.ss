@@ -1,4 +1,4 @@
-
+#!r6rs
 
 (library (clos private method-cache)
 

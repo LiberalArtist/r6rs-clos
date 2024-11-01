@@ -1,4 +1,4 @@
-
+#!r6rs
 (library (clos private compat)
   
   (export every-2

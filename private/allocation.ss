@@ -1,3 +1,4 @@
+#!r6rs
 ; *************************************************************************
 ; Copyright (c) 1992 Xerox Corporation.  
 ; All Rights Reserved.  

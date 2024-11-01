@@ -1,4 +1,4 @@
-
+#!r6rs
 (library (clos private slow-method-cache)
 
   (export invalidate-method-caches!

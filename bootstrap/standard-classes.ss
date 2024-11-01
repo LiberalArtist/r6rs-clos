@@ -20,7 +20,7 @@
 ;
 ; port to R6RS -- 2007 Christian Sloma
 ; 
-
+#!r6rs
 (library (clos bootstrap standard-classes)
 
   (export <class>

@@ -1,3 +1,4 @@
+#!r6rs
 (library (clos user)
 
   (export 
@@ -31,10 +32,12 @@
    )
 
   ;; mosh. We need minimum import for serialize library
-  (import (only (rnrs) define-syntax syntax-rules syntax-case define ...
+  (import (for (only (rnrs) define-syntax syntax-rules syntax-case define ...
                 lambda call-with-values datum->syntax quote cons values
                 reverse list unsyntax unsyntax-splicing if null? apply
                 error car  cdr  not syntax let with-syntax quasisyntax)
+            run
+            expand)
           (only (clos core) <class> print-object initialize make
                 initialize-direct-slots print-object-with-slots
                 get-arg slot-set! slot-ref <object> <top> add-method
